@@ -8,34 +8,98 @@
 
 /* Begin PBXBuildFile section */
 		B2334C171B7BD2F30042E587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334C161B7BD2F30042E587 /* AppDelegate.swift */; };
-		B2334C191B7BD2F30042E587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334C181B7BD2F30042E587 /* ViewController.swift */; };
 		B2334C1C1B7BD2F30042E587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2334C1A1B7BD2F30042E587 /* Main.storyboard */; };
 		B2334C1E1B7BD2F30042E587 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2334C1D1B7BD2F30042E587 /* Images.xcassets */; };
-		B2334C211B7BD2F30042E587 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2334C1F1B7BD2F30042E587 /* LaunchScreen.xib */; };
-		B2334C2D1B7BD2F30042E587 /* in4254_sps_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334C2C1B7BD2F30042E587 /* in4254_sps_iOS_AppTests.swift */; };
+		B2334C971B7BD3930042E587 /* ParticleFilterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B2334C961B7BD3930042E587 /* ParticleFilterKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2334CA91B7BD3930042E587 /* ParticleFilterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2334C921B7BD3930042E587 /* ParticleFilterKit.framework */; };
+		B2334CAA1B7BD3930042E587 /* ParticleFilterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B2334C921B7BD3930042E587 /* ParticleFilterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B2334CCA1B7BD3C80042E587 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CB21B7BD3C80042E587 /* Cell.swift */; };
+		B2334CCB1B7BD3C80042E587 /* ClientParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CB31B7BD3C80042E587 /* ClientParameters.swift */; };
+		B2334CCC1B7BD3C80042E587 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CB41B7BD3C80042E587 /* Map.swift */; };
+		B2334CCD1B7BD3C80042E587 /* MapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CB51B7BD3C80042E587 /* MapType.swift */; };
+		B2334CCE1B7BD3C80042E587 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CB61B7BD3C80042E587 /* Rectangle.swift */; };
+		B2334CCF1B7BD3C80042E587 /* ParticleFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CB81B7BD3C80042E587 /* ParticleFilter.swift */; };
+		B2334CD01B7BD3C80042E587 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CB91B7BD3C80042E587 /* Point.swift */; };
+		B2334CD11B7BD3C80042E587 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CBB1B7BD3C80042E587 /* SocketAckManager.swift */; };
+		B2334CD21B7BD3C80042E587 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CBC1B7BD3C80042E587 /* SocketAnyEvent.swift */; };
+		B2334CD31B7BD3C80042E587 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CBD1B7BD3C80042E587 /* SocketEngine.swift */; };
+		B2334CD41B7BD3C80042E587 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CBE1B7BD3C80042E587 /* SocketEngineClient.swift */; };
+		B2334CD51B7BD3C80042E587 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CBF1B7BD3C80042E587 /* SocketEventHandler.swift */; };
+		B2334CD61B7BD3C80042E587 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CC01B7BD3C80042E587 /* SocketFixUTF8.swift */; };
+		B2334CD71B7BD3C80042E587 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CC11B7BD3C80042E587 /* SocketIOClient.swift */; };
+		B2334CD81B7BD3C80042E587 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CC21B7BD3C80042E587 /* SocketLogger.swift */; };
+		B2334CD91B7BD3C80042E587 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CC31B7BD3C80042E587 /* SocketPacket.swift */; };
+		B2334CDA1B7BD3C80042E587 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CC41B7BD3C80042E587 /* SocketParser.swift */; };
+		B2334CDB1B7BD3C80042E587 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CC51B7BD3C80042E587 /* SocketTypes.swift */; };
+		B2334CDC1B7BD3C80042E587 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CC61B7BD3C80042E587 /* SwiftRegex.swift */; };
+		B2334CDD1B7BD3C80042E587 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CC71B7BD3C80042E587 /* WebSocket.swift */; };
+		B2334CDE1B7BD3C80042E587 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2334CC91B7BD3C80042E587 /* SwiftyJSON.swift */; };
+		B252A72B1B7BD49200836084 /* MapTypePickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252A7271B7BD49200836084 /* MapTypePickerTableViewController.swift */; };
+		B252A72C1B7BD49200836084 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252A7281B7BD49200836084 /* MapView.swift */; };
+		B252A72D1B7BD49200836084 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252A7291B7BD49200836084 /* Settings.swift */; };
+		B252A72E1B7BD49200836084 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252A72A1B7BD49200836084 /* SettingsViewController.swift */; };
+		B252A7301B7BD50B00836084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252A72F1B7BD50B00836084 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B2334C271B7BD2F30042E587 /* PBXContainerItemProxy */ = {
+		B2334CA71B7BD3930042E587 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B2334C091B7BD2F20042E587 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B2334C101B7BD2F30042E587;
-			remoteInfo = "in4254-sps-iOS-App";
+			remoteGlobalIDString = B2334C911B7BD3930042E587;
+			remoteInfo = ParticleFilterKit;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2334C891B7BD3480042E587 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B2334CAA1B7BD3930042E587 /* ParticleFilterKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B2334C111B7BD2F30042E587 /* in4254-sps-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "in4254-sps-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2334C151B7BD2F30042E587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2334C161B7BD2F30042E587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2334C181B7BD2F30042E587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2334C1B1B7BD2F30042E587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2334C1D1B7BD2F30042E587 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B2334C201B7BD2F30042E587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B2334C261B7BD2F30042E587 /* in4254-sps-iOS-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "in4254-sps-iOS-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2334C2B1B7BD2F30042E587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2334C2C1B7BD2F30042E587 /* in4254_sps_iOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = in4254_sps_iOS_AppTests.swift; sourceTree = "<group>"; };
+		B2334C921B7BD3930042E587 /* ParticleFilterKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParticleFilterKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2334C951B7BD3930042E587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2334C961B7BD3930042E587 /* ParticleFilterKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleFilterKit.h; sourceTree = "<group>"; };
+		B2334CB21B7BD3C80042E587 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		B2334CB31B7BD3C80042E587 /* ClientParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientParameters.swift; sourceTree = "<group>"; };
+		B2334CB41B7BD3C80042E587 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		B2334CB51B7BD3C80042E587 /* MapType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapType.swift; sourceTree = "<group>"; };
+		B2334CB61B7BD3C80042E587 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		B2334CB81B7BD3C80042E587 /* ParticleFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleFilter.swift; sourceTree = "<group>"; };
+		B2334CB91B7BD3C80042E587 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		B2334CBB1B7BD3C80042E587 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		B2334CBC1B7BD3C80042E587 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		B2334CBD1B7BD3C80042E587 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		B2334CBE1B7BD3C80042E587 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		B2334CBF1B7BD3C80042E587 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		B2334CC01B7BD3C80042E587 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		B2334CC11B7BD3C80042E587 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		B2334CC21B7BD3C80042E587 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		B2334CC31B7BD3C80042E587 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		B2334CC41B7BD3C80042E587 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		B2334CC51B7BD3C80042E587 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		B2334CC61B7BD3C80042E587 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		B2334CC71B7BD3C80042E587 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		B2334CC91B7BD3C80042E587 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		B252A7271B7BD49200836084 /* MapTypePickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTypePickerTableViewController.swift; sourceTree = "<group>"; };
+		B252A7281B7BD49200836084 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B252A7291B7BD49200836084 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B252A72A1B7BD49200836084 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B252A72F1B7BD50B00836084 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +107,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2334CA91B7BD3930042E587 /* ParticleFilterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2334C231B7BD2F30042E587 /* Frameworks */ = {
+		B2334C8E1B7BD3930042E587 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				B2334C131B7BD2F30042E587 /* in4254-sps-iOS-App */,
-				B2334C291B7BD2F30042E587 /* in4254-sps-iOS-AppTests */,
+				B2334C931B7BD3930042E587 /* ParticleFilterKit */,
 				B2334C121B7BD2F30042E587 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				B2334C111B7BD2F30042E587 /* in4254-sps-iOS-App.app */,
-				B2334C261B7BD2F30042E587 /* in4254-sps-iOS-AppTests.xctest */,
+				B2334C921B7BD3930042E587 /* ParticleFilterKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,11 +142,14 @@
 		B2334C131B7BD2F30042E587 /* in4254-sps-iOS-App */ = {
 			isa = PBXGroup;
 			children = (
+				B252A72F1B7BD50B00836084 /* ViewController.swift */,
+				B252A7271B7BD49200836084 /* MapTypePickerTableViewController.swift */,
+				B252A7281B7BD49200836084 /* MapView.swift */,
+				B252A7291B7BD49200836084 /* Settings.swift */,
+				B252A72A1B7BD49200836084 /* SettingsViewController.swift */,
 				B2334C161B7BD2F30042E587 /* AppDelegate.swift */,
-				B2334C181B7BD2F30042E587 /* ViewController.swift */,
 				B2334C1A1B7BD2F30042E587 /* Main.storyboard */,
 				B2334C1D1B7BD2F30042E587 /* Images.xcassets */,
-				B2334C1F1B7BD2F30042E587 /* LaunchScreen.xib */,
 				B2334C141B7BD2F30042E587 /* Supporting Files */,
 			);
 			path = "in4254-sps-iOS-App";
@@ -95,24 +163,88 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B2334C291B7BD2F30042E587 /* in4254-sps-iOS-AppTests */ = {
+		B2334C931B7BD3930042E587 /* ParticleFilterKit */ = {
 			isa = PBXGroup;
 			children = (
-				B2334C2C1B7BD2F30042E587 /* in4254_sps_iOS_AppTests.swift */,
-				B2334C2A1B7BD2F30042E587 /* Supporting Files */,
+				B2334CB11B7BD3C80042E587 /* Map */,
+				B2334CB71B7BD3C80042E587 /* ParticleFilter */,
+				B2334CBA1B7BD3C80042E587 /* SocketIO */,
+				B2334CC81B7BD3C80042E587 /* SwiftyJSON */,
+				B2334C961B7BD3930042E587 /* ParticleFilterKit.h */,
+				B2334C941B7BD3930042E587 /* Supporting Files */,
 			);
-			path = "in4254-sps-iOS-AppTests";
+			path = ParticleFilterKit;
 			sourceTree = "<group>";
 		};
-		B2334C2A1B7BD2F30042E587 /* Supporting Files */ = {
+		B2334C941B7BD3930042E587 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B2334C2B1B7BD2F30042E587 /* Info.plist */,
+				B2334C951B7BD3930042E587 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B2334CB11B7BD3C80042E587 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B2334CB21B7BD3C80042E587 /* Cell.swift */,
+				B2334CB31B7BD3C80042E587 /* ClientParameters.swift */,
+				B2334CB41B7BD3C80042E587 /* Map.swift */,
+				B2334CB51B7BD3C80042E587 /* MapType.swift */,
+				B2334CB61B7BD3C80042E587 /* Rectangle.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B2334CB71B7BD3C80042E587 /* ParticleFilter */ = {
+			isa = PBXGroup;
+			children = (
+				B2334CB81B7BD3C80042E587 /* ParticleFilter.swift */,
+				B2334CB91B7BD3C80042E587 /* Point.swift */,
+			);
+			path = ParticleFilter;
+			sourceTree = "<group>";
+		};
+		B2334CBA1B7BD3C80042E587 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				B2334CBB1B7BD3C80042E587 /* SocketAckManager.swift */,
+				B2334CBC1B7BD3C80042E587 /* SocketAnyEvent.swift */,
+				B2334CBD1B7BD3C80042E587 /* SocketEngine.swift */,
+				B2334CBE1B7BD3C80042E587 /* SocketEngineClient.swift */,
+				B2334CBF1B7BD3C80042E587 /* SocketEventHandler.swift */,
+				B2334CC01B7BD3C80042E587 /* SocketFixUTF8.swift */,
+				B2334CC11B7BD3C80042E587 /* SocketIOClient.swift */,
+				B2334CC21B7BD3C80042E587 /* SocketLogger.swift */,
+				B2334CC31B7BD3C80042E587 /* SocketPacket.swift */,
+				B2334CC41B7BD3C80042E587 /* SocketParser.swift */,
+				B2334CC51B7BD3C80042E587 /* SocketTypes.swift */,
+				B2334CC61B7BD3C80042E587 /* SwiftRegex.swift */,
+				B2334CC71B7BD3C80042E587 /* WebSocket.swift */,
+			);
+			path = SocketIO;
+			sourceTree = "<group>";
+		};
+		B2334CC81B7BD3C80042E587 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				B2334CC91B7BD3C80042E587 /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B2334C8F1B7BD3930042E587 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2334C971B7BD3930042E587 /* ParticleFilterKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		B2334C101B7BD2F30042E587 /* in4254-sps-iOS-App */ = {
@@ -122,33 +254,35 @@
 				B2334C0D1B7BD2F30042E587 /* Sources */,
 				B2334C0E1B7BD2F30042E587 /* Frameworks */,
 				B2334C0F1B7BD2F30042E587 /* Resources */,
+				B2334C891B7BD3480042E587 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B2334CA81B7BD3930042E587 /* PBXTargetDependency */,
 			);
 			name = "in4254-sps-iOS-App";
 			productName = "in4254-sps-iOS-App";
 			productReference = B2334C111B7BD2F30042E587 /* in4254-sps-iOS-App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B2334C251B7BD2F30042E587 /* in4254-sps-iOS-AppTests */ = {
+		B2334C911B7BD3930042E587 /* ParticleFilterKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2334C331B7BD2F30042E587 /* Build configuration list for PBXNativeTarget "in4254-sps-iOS-AppTests" */;
+			buildConfigurationList = B2334CAB1B7BD3930042E587 /* Build configuration list for PBXNativeTarget "ParticleFilterKit" */;
 			buildPhases = (
-				B2334C221B7BD2F30042E587 /* Sources */,
-				B2334C231B7BD2F30042E587 /* Frameworks */,
-				B2334C241B7BD2F30042E587 /* Resources */,
+				B2334C8D1B7BD3930042E587 /* Sources */,
+				B2334C8E1B7BD3930042E587 /* Frameworks */,
+				B2334C8F1B7BD3930042E587 /* Headers */,
+				B2334C901B7BD3930042E587 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B2334C281B7BD2F30042E587 /* PBXTargetDependency */,
 			);
-			name = "in4254-sps-iOS-AppTests";
-			productName = "in4254-sps-iOS-AppTests";
-			productReference = B2334C261B7BD2F30042E587 /* in4254-sps-iOS-AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = ParticleFilterKit;
+			productName = ParticleFilterKit;
+			productReference = B2334C921B7BD3930042E587 /* ParticleFilterKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,9 +296,8 @@
 					B2334C101B7BD2F30042E587 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					B2334C251B7BD2F30042E587 = {
+					B2334C911B7BD3930042E587 = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = B2334C101B7BD2F30042E587;
 					};
 				};
 			};
@@ -182,7 +315,7 @@
 			projectRoot = "";
 			targets = (
 				B2334C101B7BD2F30042E587 /* in4254-sps-iOS-App */,
-				B2334C251B7BD2F30042E587 /* in4254-sps-iOS-AppTests */,
+				B2334C911B7BD3930042E587 /* ParticleFilterKit */,
 			);
 		};
 /* End PBXProject section */
@@ -193,12 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2334C1C1B7BD2F30042E587 /* Main.storyboard in Resources */,
-				B2334C211B7BD2F30042E587 /* LaunchScreen.xib in Resources */,
 				B2334C1E1B7BD2F30042E587 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2334C241B7BD2F30042E587 /* Resources */ = {
+		B2334C901B7BD3930042E587 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,26 +344,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2334C191B7BD2F30042E587 /* ViewController.swift in Sources */,
+				B252A7301B7BD50B00836084 /* ViewController.swift in Sources */,
+				B252A72B1B7BD49200836084 /* MapTypePickerTableViewController.swift in Sources */,
+				B252A72C1B7BD49200836084 /* MapView.swift in Sources */,
+				B252A72D1B7BD49200836084 /* Settings.swift in Sources */,
+				B252A72E1B7BD49200836084 /* SettingsViewController.swift in Sources */,
 				B2334C171B7BD2F30042E587 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2334C221B7BD2F30042E587 /* Sources */ = {
+		B2334C8D1B7BD3930042E587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2334C2D1B7BD2F30042E587 /* in4254_sps_iOS_AppTests.swift in Sources */,
+				B2334CD51B7BD3C80042E587 /* SocketEventHandler.swift in Sources */,
+				B2334CCE1B7BD3C80042E587 /* Rectangle.swift in Sources */,
+				B2334CCF1B7BD3C80042E587 /* ParticleFilter.swift in Sources */,
+				B2334CD21B7BD3C80042E587 /* SocketAnyEvent.swift in Sources */,
+				B2334CDA1B7BD3C80042E587 /* SocketParser.swift in Sources */,
+				B2334CD41B7BD3C80042E587 /* SocketEngineClient.swift in Sources */,
+				B2334CCD1B7BD3C80042E587 /* MapType.swift in Sources */,
+				B2334CCB1B7BD3C80042E587 /* ClientParameters.swift in Sources */,
+				B2334CD11B7BD3C80042E587 /* SocketAckManager.swift in Sources */,
+				B2334CDD1B7BD3C80042E587 /* WebSocket.swift in Sources */,
+				B2334CD61B7BD3C80042E587 /* SocketFixUTF8.swift in Sources */,
+				B2334CDB1B7BD3C80042E587 /* SocketTypes.swift in Sources */,
+				B2334CDE1B7BD3C80042E587 /* SwiftyJSON.swift in Sources */,
+				B2334CDC1B7BD3C80042E587 /* SwiftRegex.swift in Sources */,
+				B2334CD31B7BD3C80042E587 /* SocketEngine.swift in Sources */,
+				B2334CD01B7BD3C80042E587 /* Point.swift in Sources */,
+				B2334CD81B7BD3C80042E587 /* SocketLogger.swift in Sources */,
+				B2334CD71B7BD3C80042E587 /* SocketIOClient.swift in Sources */,
+				B2334CCC1B7BD3C80042E587 /* Map.swift in Sources */,
+				B2334CD91B7BD3C80042E587 /* SocketPacket.swift in Sources */,
+				B2334CCA1B7BD3C80042E587 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B2334C281B7BD2F30042E587 /* PBXTargetDependency */ = {
+		B2334CA81B7BD3930042E587 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2334C101B7BD2F30042E587 /* in4254-sps-iOS-App */;
-			targetProxy = B2334C271B7BD2F30042E587 /* PBXContainerItemProxy */;
+			target = B2334C911B7BD3930042E587 /* ParticleFilterKit */;
+			targetProxy = B2334CA71B7BD3930042E587 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -242,14 +398,6 @@
 				B2334C1B1B7BD2F30042E587 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B2334C1F1B7BD2F30042E587 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2334C201B7BD2F30042E587 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -356,37 +504,45 @@
 			};
 			name = Release;
 		};
-		B2334C341B7BD2F30042E587 /* Debug */ = {
+		B2334CAC1B7BD3930042E587 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "in4254-sps-iOS-AppTests/Info.plist";
+				INFOPLIST_FILE = ParticleFilterKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/in4254-sps-iOS-App.app/in4254-sps-iOS-App";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B2334C351B7BD2F30042E587 /* Release */ = {
+		B2334CAD1B7BD3930042E587 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "in4254-sps-iOS-AppTests/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ParticleFilterKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/in4254-sps-iOS-App.app/in4254-sps-iOS-App";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -409,14 +565,16 @@
 				B2334C321B7BD2F30042E587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B2334C331B7BD2F30042E587 /* Build configuration list for PBXNativeTarget "in4254-sps-iOS-AppTests" */ = {
+		B2334CAB1B7BD3930042E587 /* Build configuration list for PBXNativeTarget "ParticleFilterKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2334C341B7BD2F30042E587 /* Debug */,
-				B2334C351B7BD2F30042E587 /* Release */,
+				B2334CAC1B7BD3930042E587 /* Debug */,
+				B2334CAD1B7BD3930042E587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

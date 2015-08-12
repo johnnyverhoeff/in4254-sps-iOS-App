@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ParticleFilterKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>in4254-sps-iOS-App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,26 @@
 			<true/>
 		</dict>
 		<key>B2334C251B7BD2F30042E587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2334C6C1B7BD3480042E587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2334C761B7BD3480042E587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2334C911B7BD3930042E587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2334C9B1B7BD3930042E587</key>
 		<dict>
 			<key>primary</key>
 			<true/>
